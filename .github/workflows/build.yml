@@ -9,7 +9,7 @@ permissions:
   packages: write
 
 env:
-  IMAGE_NAME: pasarguard/${{ github.event.repository.name }}
+  IMAGE_NAME: alicl0ner/${{ github.event.repository.name }}
 
 jobs:
   generate-changelog:
