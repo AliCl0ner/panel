@@ -201,7 +201,7 @@ async def _prepare_subscription_inbound_data(
     flow_enabled = (
         protocol == "vless"
         and tls_value in ("tls", "reality")
-        and network in ("tcp", "raw", "kcp")
+        and network in ("tcp", "raw", "kcp","xhttp")
         and header_type != "http"
     )
 
